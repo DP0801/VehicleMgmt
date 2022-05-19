@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "b95903fb-fa90-4f0f-84f8-e009a8375a53",
+		"name": "VehicleType",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetMakes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/Makes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"Makes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertFinanceTypes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"Name\": \"Flexible Finance\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFinanceTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertMakes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"Name\": \"Audi2\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/Makes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"Makes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVehicleTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/VehicleTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"VehicleTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertVehicleTypes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"MakeId\": \"1\",\r\n            \"Name\": \"Van\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/VehicleTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"VehicleTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFinanceRateTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceRateTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceRateTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertFinanceRateTypes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"Name\": \"0-3Months\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceRateTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceRateTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFinanceRateTypeValues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceRateTypeValues",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceRateTypeValues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertFinanceRateTypeValues",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"FinanceRateTypeId\": \"1\",\r\n            \"RateValue\": \"5.0\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceRateTypeValues",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceRateTypeValues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFinanceRateTypeValues",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/FinanceRateTypeValues",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"FinanceRateTypeValues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVehicleFinanceDetail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:60863/api/rest/VehicleFinanceDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"VehicleFinanceDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertVehicleFinanceDetail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"MakeId\": \"1\",\r\n            \"VehicleTypeId\": \"1\",\r\n            \"FinanceTypeId\": \"1\",\r\n            \"FinanceTypeValueId\": \"1\",\r\n            \"CreatedBy\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:60863/api/rest/VehicleFinanceDetail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "60863",
+					"path": [
+						"api",
+						"rest",
+						"VehicleFinanceDetail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

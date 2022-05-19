@@ -1,0 +1,13 @@
+VehicleMgmt.WebApi/obj/*
+VehicleMgmt.WebApi/bin/*
+VehicleMgmt.Models/obj/*
+VehicleMgmt.Models/bin/*
+VehicleMgmt.BusinessService/obj/*
+VehicleMgmt.BusinessService/bin/*
+VehicleMgmt.DataService/obj/*
+VehicleMgmt.DataService/bin/*
+.vs/*
+packages/
+VehicleMgmt.WebApi/obj/*
+/VehicleMgmt.DataService/VehicleMgmt.DataService.csproj.user
+/VehicleMgmt.BusinessService/VehicleMgmt.BusinessService.csproj.user
